@@ -17,6 +17,8 @@ public class FakeDataProvider {
 
     public static void init(Context c) {
         mContext = c;
+        BitmapFactory.decodeResource(mContext.getResources(),
+                R.drawable.background_budapest);
     }
 
     public static Collection<MediaElement> getSomeMediaElements(final int howmany) {
@@ -33,9 +35,10 @@ public class FakeDataProvider {
         return new SimpleImageElement(getRandomBitmap(), getRandomAwesomeString());
     }
 
+    static Bitmap bmp;
+
     public static Bitmap getRandomBitmap() {
-        return BitmapFactory.decodeResource(mContext.getResources(),
-                R.drawable.background_hungary);
+        return bmp;
     }
 
     public static String getRandomAwesomeString() {

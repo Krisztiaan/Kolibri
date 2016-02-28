@@ -25,15 +25,15 @@ repositories {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile project(':guillotinemenu')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.2.0'
     compile 'com.android.support:design:23.2.0'
-    compile 'com.google.android.gms:play-services-gcm:8.4.0'
     compile 'com.jakewharton:butterknife:7.0.1'
 
     compile 'com.android.support:cardview-v7:23.2.0'
     compile 'com.android.support:recyclerview-v7:23.2.0'
 
     compile 'com.mikhaellopez:circularimageview:3.0.2'
+
+    compile 'org.apache.commons:commons-math3:3.6'
 }
