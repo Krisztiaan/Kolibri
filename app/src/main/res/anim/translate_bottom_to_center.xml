@@ -1,0 +1,6 @@
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+           android:fromYDelta="200%p"
+           android:toYDelta="0%p"
+           android:duration="1700"
+           android:startOffset="1500"
+           android:interpolator="@android:anim/accelerate_decelerate_interpolator" />

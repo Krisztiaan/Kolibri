@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#dfe3ee</color>
+    <color name="colorPrimaryDark">#b0bec5</color>
+    <color name="colorAccent">@color/colorSalmon</color>
+
+    <color name="colorIntroOverlay">@color/colorGrey</color>
+    <color name="colorOverlayButton">#d6dfe3ee</color>
+    <color name="colorRegularOverlayButtonLight">#aeaeae</color>
+    
+    <color name="colorSalmon">#FC4F4F</color>
+    <color name="colorDeepBlue">#0C2C58</color>
+    <color name="colorGrey">#BBE2E2E2</color>
+
+    <color name="guillotine_background">#444153</color>
+    <color name="guillotine_background_dark">#383547</color>
+    <color name="selected_item_color">#30d1d5</color>
+</resources>
